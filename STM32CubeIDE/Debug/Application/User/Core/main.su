@@ -1,0 +1,8 @@
+C:/TouchGFXProjects/TestApp_2/Core/Src/main.c:770:6:StartDefaultTask	8	static
+C:/TouchGFXProjects/TestApp_2/Core/Src/main.c:788:6:genericHardwareTask	8	static
+C:/TouchGFXProjects/TestApp_2/Core/Src/main.c:253:6:SystemClock_Config	88	static
+C:/TouchGFXProjects/TestApp_2/Core/Src/main.c:701:6:GetManufacturerId	72	static
+C:/TouchGFXProjects/TestApp_2/Core/Src/main.c:731:6:EnableMemoryMappedMode	72	static
+C:/TouchGFXProjects/TestApp_2/Core/Src/main.c:143:5:main	120	static,ignoring_inline_asm
+C:/TouchGFXProjects/TestApp_2/Core/Src/main.c:846:6:HAL_TIM_PeriodElapsedCallback	0	static
+C:/TouchGFXProjects/TestApp_2/Core/Src/main.c:863:6:Error_Handler	0	static
