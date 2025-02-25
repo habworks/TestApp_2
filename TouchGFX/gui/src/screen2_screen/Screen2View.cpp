@@ -16,6 +16,7 @@ void Screen2View::tearDownScreen()
     Screen2ViewBase::tearDownScreen();
 }
 
+// Had Added functions
 void Screen2View::mainPowerOff(void)
 {
     MAIN_PWR_OFF();

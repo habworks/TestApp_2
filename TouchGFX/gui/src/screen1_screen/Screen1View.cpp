@@ -17,6 +17,7 @@ void Screen1View::tearDownScreen()
 }
 
 
+// Hab Added functions
 void Screen1View::mainPowerOn(void)
 {
     MAIN_PWR_ON();
