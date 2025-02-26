@@ -49,9 +49,9 @@ void Screen2ViewBase::buttonCallbackHandler(const touchgfx::AbstractButton& src)
     if (&src == &buttonHomeScreen)
     {
         //Interaction1
-        //When buttonHomeScreen clicked change screen to Screen1
-        //Go to Screen1 with block transition
-        application().gotoScreen1ScreenBlockTransition();
+        //When buttonHomeScreen clicked change screen to Screen3
+        //Go to Screen3 with block transition
+        application().gotoScreen3ScreenBlockTransition();
     }
     if (&src == &buttonMainPwrOff)
     {

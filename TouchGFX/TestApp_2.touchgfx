@@ -151,7 +151,7 @@
             "Action": {
               "Type": "ActionGotoScreen",
               "ScreenTransitionType": "ScreenTransitionBlock",
-              "ActionComponent": "Screen1"
+              "ActionComponent": "Screen3"
             }
           },
           {
@@ -163,6 +163,147 @@
             "Action": {
               "Type": "ActionCustom",
               "FunctionName": "mainPowerOff"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "Screen3",
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "image1",
+            "Width": 480,
+            "Height": 272,
+            "RelativeFilename": "__generated\\dark_theme_images_backgrounds_480x272_wavy_lines.png"
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "buttonHome",
+            "X": 291,
+            "Y": 118,
+            "Width": 138,
+            "Height": 36,
+            "Pressed": "__generated\\dark_theme_images_widgets_button_regular_height_36_small_round_pressed.png",
+            "Released": "__generated\\dark_theme_images_widgets_button_regular_height_36_small_round_action.png",
+            "TextId": "__SingleUse_5837",
+            "ReleasedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0",
+            "Preset": "dark_theme\\presets\\button\\regular\\height_36\\small_round_action.json"
+          },
+          {
+            "Type": "Box",
+            "Name": "box1",
+            "X": 62,
+            "Y": 71,
+            "Width": 65,
+            "Height": 65,
+            "Color": {
+              "Red": 94,
+              "Green": 235,
+              "Blue": 19
+            }
+          },
+          {
+            "Type": "FlexButton",
+            "Name": "flexButtonOutputCH1",
+            "X": 62,
+            "Y": 71,
+            "Width": 65,
+            "Height": 65,
+            "Alpha": 108,
+            "ButtonTrigger": {
+              "Type": "ClickButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "TextButtonStyle",
+                "Y": 18,
+                "TextId": "__SingleUse_PWIN",
+                "TextRotation": "0",
+                "ColorReleased": {
+                  "Red": 245,
+                  "Green": 245,
+                  "Blue": 245
+                },
+                "ColorPressed": {
+                  "Red": 10,
+                  "Green": 10,
+                  "Blue": 10
+                }
+              },
+              {
+                "Type": "BoxWithBorderButtonStyle",
+                "Width": 65,
+                "Height": 65,
+                "LockToFlexButtonSize": true,
+                "BorderSize": 5,
+                "ColorReleased": {
+                  "Green": 102,
+                  "Blue": 153
+                },
+                "ColorPressed": {
+                  "Green": 153,
+                  "Blue": 204
+                },
+                "ColorBorderReleased": {
+                  "Green": 51,
+                  "Blue": 102
+                },
+                "ColorBorderPressed": {
+                  "Red": 51,
+                  "Green": 102,
+                  "Blue": 153
+                }
+              }
+            ]
+          },
+          {
+            "Type": "Container",
+            "Name": "container1",
+            "Width": 240,
+            "Height": 272,
+            "Components": []
+          },
+          {
+            "Type": "Container",
+            "Name": "container2",
+            "X": 240,
+            "Width": 240,
+            "Height": 272,
+            "Components": []
+          },
+          {
+            "Type": "Button",
+            "Name": "button1",
+            "X": 310,
+            "Y": 53,
+            "Width": 100,
+            "Height": 36,
+            "Pressed": "__generated\\alternate_theme_images_widgets_button_regular_height_36_tiny_round_pressed.png",
+            "Released": "__generated\\alternate_theme_images_widgets_button_regular_height_36_tiny_round_active.png",
+            "Preset": "alternate_theme\\presets\\button\\regular\\height_36\\tiny_round_active.json"
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "flexButtonOutputCH1"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "toggleMainPower"
             }
           }
         ]

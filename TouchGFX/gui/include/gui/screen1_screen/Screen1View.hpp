@@ -12,7 +12,9 @@ public:
     virtual void setupScreen();
     virtual void tearDownScreen();
     // Hab Added
+#ifdef USE_TGFX_CALL_FUNCTIONS
     virtual void mainPowerOn(void);
+#endif
 protected:
 };
 

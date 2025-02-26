@@ -9,6 +9,8 @@ extern"C" {
 
 #define MAIN_PWR_ON()           HAL_GPIO_WritePin(MAIN_PWR_EN_GPIO_Port, MAIN_PWR_EN_Pin, GPIO_PIN_SET)
 #define MAIN_PWR_OFF()          HAL_GPIO_WritePin(MAIN_PWR_EN_GPIO_Port, MAIN_PWR_EN_Pin, GPIO_PIN_RESET)
+#define MAIN_PWR_TOGGLE()       HAL_GPIO_TogglePin(MAIN_PWR_EN_GPIO_Port, MAIN_PWR_EN_Pin)
+#define MAIN_PWR_STATUS()       HAL_GPIO_ReadPin(MAIN_PWR_EN_GPIO_Port, MAIN_PWR_EN_Pin)
 
 #define STATUS_LED_ON()         HAL_GPIO_WritePin(STATUS_LED_GPIO_Port, STATUS_LED_Pin, GPIO_PIN_SET)
 #define STATUS_LED_OFF()        HAL_GPIO_WritePin(STATUS_LED_GPIO_Port, STATUS_LED_Pin, GPIO_PIN_RESET)

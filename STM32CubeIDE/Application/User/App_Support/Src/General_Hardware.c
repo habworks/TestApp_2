@@ -6,7 +6,6 @@ void Init_GeneralHardware(void)
     STATUS_LED_OFF();
 }
 
-
 void generalHardwareTaskFunction(void)
 {
     STATUS_LED_TOGGLE();
