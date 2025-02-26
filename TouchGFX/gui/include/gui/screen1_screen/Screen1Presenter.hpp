@@ -27,6 +27,9 @@ public:
 
     virtual ~Screen1Presenter() {}
 
+    // HAB ADDED
+    virtual void textDisplayUpdate_Presenter(float DisplayValue);
+
 private:
     Screen1Presenter();
 

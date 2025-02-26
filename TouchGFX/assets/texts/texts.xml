@@ -4,10 +4,20 @@
     <Language Id="GB" />
   </Languages>
   <Texts>
-    <TextGroup Id="Group1" />
+    <TextGroup Id="Group1">
+      <Text Id="ResourceId1" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">New Text</Translation>
+      </Text>
+    </TextGroup>
     <TextGroup Id="Unsorted">
-      <Text Id="__SingleUse_PWIN" Alignment="Center" TypographyId="Default">
+      <Text Id="__SingleUse_QVBZ" Alignment="Center" TypographyId="Default">
+        <Translation Language="GB">&lt;Value&gt;V</Translation>
+      </Text>
+      <Text Id="__SingleUse_O7QK" Alignment="Left" TypographyId="Default">
         <Translation Language="GB">ON</Translation>
+      </Text>
+      <Text Id="__SingleUse_PWIN" Alignment="Center" TypographyId="Default">
+        <Translation Language="GB"></Translation>
       </Text>
       <Text Id="__SingleUse_5837" Alignment="Center" TypographyId="Default">
         <Translation Language="GB">New Text</Translation>

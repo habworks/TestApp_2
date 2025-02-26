@@ -13,6 +13,7 @@
 #include <touchgfx/containers/buttons/Buttons.hpp>
 #include <touchgfx/containers/Container.hpp>
 #include <touchgfx/widgets/Button.hpp>
+#include <touchgfx/widgets/TextArea.hpp>
 
 class Screen3ViewBase : public touchgfx::View<Screen3Presenter>
 {
@@ -45,6 +46,7 @@ protected:
     touchgfx::Container container1;
     touchgfx::Container container2;
     touchgfx::Button button1;
+    touchgfx::TextArea textArea1;
 
 private:
 

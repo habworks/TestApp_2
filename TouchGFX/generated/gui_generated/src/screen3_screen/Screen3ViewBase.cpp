@@ -29,7 +29,7 @@ Screen3ViewBase::Screen3ViewBase() :
     add(box1);
 
     flexButtonOutputCH1.setBoxWithBorderPosition(0, 0, 65, 65);
-    flexButtonOutputCH1.setBorderSize(5);
+    flexButtonOutputCH1.setBorderSize(0);
     flexButtonOutputCH1.setBoxWithBorderColors(touchgfx::Color::getColorFromRGB(0, 102, 153), touchgfx::Color::getColorFromRGB(0, 153, 204), touchgfx::Color::getColorFromRGB(0, 51, 102), touchgfx::Color::getColorFromRGB(51, 102, 153));
     flexButtonOutputCH1.setText(TypedText(T___SINGLEUSE_PWIN));
     flexButtonOutputCH1.setTextPosition(0, 18, 65, 65);
@@ -48,6 +48,12 @@ Screen3ViewBase::Screen3ViewBase() :
     button1.setXY(310, 53);
     button1.setBitmaps(touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_REGULAR_HEIGHT_36_TINY_ROUND_ACTIVE_ID), touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_REGULAR_HEIGHT_36_TINY_ROUND_PRESSED_ID));
     add(button1);
+
+    textArea1.setXY(79, 93);
+    textArea1.setColor(touchgfx::Color::getColorFromRGB(197, 224, 200));
+    textArea1.setLinespacing(0);
+    textArea1.setTypedText(touchgfx::TypedText(T___SINGLEUSE_O7QK));
+    add(textArea1);
 }
 
 Screen3ViewBase::~Screen3ViewBase()

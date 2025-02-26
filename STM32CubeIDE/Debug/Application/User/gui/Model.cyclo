@@ -1,2 +1,3 @@
-C:/TouchGFXProjects/TestApp_2/TouchGFX/gui/src/model/Model.cpp:4:1:Model::Model()	1
-C:/TouchGFXProjects/TestApp_2/TouchGFX/gui/src/model/Model.cpp:9:6:void Model::tick()	1
+C:/TouchGFXProjects/TestApp_2/TouchGFX/gui/src/model/Model.cpp:12:1:Model::Model()	1
+C:/TouchGFXProjects/TestApp_2/TouchGFX/gui/src/model/Model.cpp:17:6:void Model::tick()	3
+C:/TouchGFXProjects/TestApp_2/TouchGFX/gui/src/model/Model.cpp:28:6:void Model::textDisplayUpdate()	2

@@ -14,7 +14,7 @@
           {
             "Type": "ButtonWithLabel",
             "Name": "buttonNextScreen",
-            "X": 120,
+            "X": 192,
             "Y": 86,
             "Width": 240,
             "Height": 50,
@@ -37,8 +37,8 @@
           {
             "Type": "ButtonWithLabel",
             "Name": "buttonMainPwrOn",
-            "X": 120,
-            "Y": 176,
+            "X": 192,
+            "Y": 175,
             "Width": 240,
             "Height": 50,
             "Pressed": "__generated\\alternate_theme_images_widgets_button_regular_height_50_medium_rounded_pressed.png",
@@ -56,6 +56,21 @@
             },
             "TextRotation": "0",
             "Preset": "alternate_theme\\presets\\button\\regular\\height_50\\medium_rounded_normal.json"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1",
+            "X": 27,
+            "Y": 52,
+            "Width": 14,
+            "Height": 20,
+            "TextId": "__SingleUse_QVBZ",
+            "TextRotation": "0",
+            "AutoSize": true,
+            "Wildcard1": {
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
           }
         ],
         "Interactions": [
@@ -246,7 +261,6 @@
                 "Width": 65,
                 "Height": 65,
                 "LockToFlexButtonSize": true,
-                "BorderSize": 5,
                 "ColorReleased": {
                   "Green": 102,
                   "Blue": 153
@@ -292,6 +306,22 @@
             "Pressed": "__generated\\alternate_theme_images_widgets_button_regular_height_36_tiny_round_pressed.png",
             "Released": "__generated\\alternate_theme_images_widgets_button_regular_height_36_tiny_round_active.png",
             "Preset": "alternate_theme\\presets\\button\\regular\\height_36\\tiny_round_active.json"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1",
+            "X": 79,
+            "Y": 93,
+            "Width": 31,
+            "Height": 20,
+            "TextId": "__SingleUse_O7QK",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 197,
+              "Green": 224,
+              "Blue": 200
+            },
+            "AutoSize": true
           }
         ],
         "Interactions": [

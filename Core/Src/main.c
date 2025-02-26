@@ -106,6 +106,11 @@ const osThreadAttr_t genericHardware_attributes = {
   .stack_size = 256 * 4,
   .priority = (osPriority_t) osPriorityLow,
 };
+/* Definitions for DisplaySemaphore */
+osSemaphoreId_t DisplaySemaphoreHandle;
+const osSemaphoreAttr_t DisplaySemaphore_attributes = {
+  .name = "DisplaySemaphore"
+};
 /* USER CODE BEGIN PV */
 static FMC_SDRAM_CommandTypeDef Command;
 /* USER CODE END PV */
@@ -196,6 +201,10 @@ int main(void)
   /* USER CODE BEGIN RTOS_MUTEX */
   /* add mutexes, ... */
   /* USER CODE END RTOS_MUTEX */
+
+  /* Create the semaphores(s) */
+  /* creation of DisplaySemaphore */
+  DisplaySemaphoreHandle = osSemaphoreNew(1, 1, &DisplaySemaphore_attributes);
 
   /* USER CODE BEGIN RTOS_SEMAPHORES */
   /* add semaphores, ... */
@@ -793,7 +802,7 @@ void genericHardwareTask(void *argument)
   for(;;)
   {
       generalHardwareTaskFunction();
-      osDelay(500);
+      osDelay(100);
   }
   /* USER CODE END genericHardwareTask */
 }

@@ -10,6 +10,10 @@ public:
     
     virtual ~ModelListener() {}
 
+    // HAB ADDED
+    virtual void textDisplayUpdate_Presenter(float) {}
+    // END HAB ADDED
+
     void bind(Model* m)
     {
         model = m;

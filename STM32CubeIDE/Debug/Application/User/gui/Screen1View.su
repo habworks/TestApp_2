@@ -1,9 +1,13 @@
-../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:104:18:virtual void touchgfx::Screen::afterTransition()	0	static
-../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:144:18:virtual void touchgfx::Screen::handleTickEvent()	0	static
-../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:154:18:virtual void touchgfx::Screen::handleKeyEvent(uint8_t)	0	static
-C:/TouchGFXProjects/TestApp_2/TouchGFX/gui/src/screen1_screen/Screen1View.cpp:16:6:virtual void Screen1View::tearDownScreen()	0	static
-C:/TouchGFXProjects/TestApp_2/TouchGFX/gui/src/screen1_screen/Screen1View.cpp:25:6:virtual void Screen1View::mainPowerOn()	0	static
-../../TouchGFX/gui/include/gui/screen1_screen/Screen1View.hpp:11:13:Screen1View::~Screen1View()	8	static
-../../TouchGFX/gui/include/gui/screen1_screen/Screen1View.hpp:11:13:virtual Screen1View::~Screen1View()	8	static
-C:/TouchGFXProjects/TestApp_2/TouchGFX/gui/src/screen1_screen/Screen1View.cpp:6:1:Screen1View::Screen1View()	8	static
-C:/TouchGFXProjects/TestApp_2/TouchGFX/gui/src/screen1_screen/Screen1View.cpp:11:6:virtual void Screen1View::setupScreen()	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Unicode.hpp:404:25:static touchgfx::Unicode::UnicodeChar* touchgfx::Unicode::snprintfFloat(UnicodeChar*, uint16_t, const char*, float)	24	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:104:18:virtual void touchgfx::Screen::afterTransition()	16	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:115:18:virtual void touchgfx::Screen::tearDownScreen()	16	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:144:18:virtual void touchgfx::Screen::handleTickEvent()	16	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:154:18:virtual void touchgfx::Screen::handleKeyEvent(uint8_t)	16	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextAreaWithWildcard.hpp:79:10:void touchgfx::TextAreaWithOneWildcard::setWildcard1(const touchgfx::Unicode::UnicodeChar*)	16	static
+../../TouchGFX/gui/include/gui/screen1_screen/Screen1View.hpp:11:13:Screen1View::~Screen1View()	16	static
+../../TouchGFX/gui/include/gui/screen1_screen/Screen1View.hpp:11:13:virtual Screen1View::~Screen1View()	16	static
+C:/TouchGFXProjects/TestApp_2/TouchGFX/gui/src/screen1_screen/Screen1View.cpp:7:1:Screen1View::Screen1View()	16	static
+C:/TouchGFXProjects/TestApp_2/TouchGFX/gui/src/screen1_screen/Screen1View.cpp:12:6:virtual void Screen1View::setupScreen()	16	static
+C:/TouchGFXProjects/TestApp_2/TouchGFX/gui/src/screen1_screen/Screen1View.cpp:17:6:virtual void Screen1View::tearDownScreen()	16	static
+C:/TouchGFXProjects/TestApp_2/TouchGFX/gui/src/screen1_screen/Screen1View.cpp:26:6:virtual void Screen1View::mainPowerOn()	16	static
+C:/TouchGFXProjects/TestApp_2/TouchGFX/gui/src/screen1_screen/Screen1View.cpp:31:6:virtual void Screen1View::textDisplayUpdate_View(float)	16	static

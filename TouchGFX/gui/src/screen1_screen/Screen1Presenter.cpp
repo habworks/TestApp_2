@@ -16,3 +16,10 @@ void Screen1Presenter::deactivate()
 {
 
 }
+
+
+// HAB ADDED
+void Screen1Presenter::textDisplayUpdate_Presenter(float DisplayValue)
+{
+    view.textDisplayUpdate_View(DisplayValue);
+}

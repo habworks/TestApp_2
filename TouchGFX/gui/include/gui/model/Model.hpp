@@ -1,6 +1,8 @@
 #ifndef MODEL_HPP
 #define MODEL_HPP
 
+
+
 class ModelListener;
 
 class Model
@@ -14,6 +16,9 @@ public:
     }
 
     void tick();
+
+    // Hab Added
+    void textDisplayUpdate(void);
 protected:
     ModelListener* modelListener;
 };
