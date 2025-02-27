@@ -14,8 +14,8 @@
           {
             "Type": "ButtonWithLabel",
             "Name": "buttonNextScreen",
-            "X": 192,
-            "Y": 86,
+            "X": 220,
+            "Y": 62,
             "Width": 240,
             "Height": 50,
             "Pressed": "__generated\\alternate_theme_images_widgets_button_regular_height_50_medium_rounded_pressed.png",
@@ -37,8 +37,8 @@
           {
             "Type": "ButtonWithLabel",
             "Name": "buttonMainPwrOn",
-            "X": 192,
-            "Y": 175,
+            "X": 220,
+            "Y": 122,
             "Width": 240,
             "Height": 50,
             "Pressed": "__generated\\alternate_theme_images_widgets_button_regular_height_50_medium_rounded_pressed.png",
@@ -62,15 +62,39 @@
             "Name": "textArea1",
             "X": 27,
             "Y": 52,
-            "Width": 14,
+            "Width": 73,
             "Height": 20,
             "TextId": "__SingleUse_QVBZ",
             "TextRotation": "0",
             "AutoSize": true,
             "Wildcard1": {
+              "TextId": "__SingleUse_Q4R7",
               "UseBuffer": true,
               "BufferSize": 10
             }
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "buttonTextDirect",
+            "X": 220,
+            "Y": 193,
+            "Width": 240,
+            "Height": 50,
+            "Pressed": "__generated\\alternate_theme_images_widgets_button_regular_height_50_medium_rounded_pressed.png",
+            "Released": "__generated\\alternate_theme_images_widgets_button_regular_height_50_medium_rounded_normal.png",
+            "TextId": "__SingleUse_1ST2",
+            "ReleasedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0",
+            "Preset": "alternate_theme\\presets\\button\\regular\\height_50\\medium_rounded_normal.json"
           }
         ],
         "Interactions": [
@@ -95,6 +119,17 @@
             "Action": {
               "Type": "ActionCustom",
               "FunctionName": "mainPowerOn"
+            }
+          },
+          {
+            "InteractionName": "Interaction3",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "buttonTextDirect"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "directText"
             }
           }
         ]

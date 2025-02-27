@@ -15,6 +15,7 @@ public:
 #ifdef USE_TGFX_CALL_FUNCTIONS
     virtual void mainPowerOn(void);
     virtual void textDisplayUpdate_View(float DisplayValue);
+    virtual void directText(void);
 #endif
 protected:
 };

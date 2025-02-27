@@ -103,7 +103,7 @@ const osThreadAttr_t videoTask_attributes = {
 osThreadId_t genericHardwareHandle;
 const osThreadAttr_t genericHardware_attributes = {
   .name = "genericHardware",
-  .stack_size = 256 * 4,
+  .stack_size = 1024 * 4,
   .priority = (osPriority_t) osPriorityLow,
 };
 /* Definitions for DisplaySemaphore */

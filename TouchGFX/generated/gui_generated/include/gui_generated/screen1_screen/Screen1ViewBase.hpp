@@ -26,6 +26,10 @@ public:
     {
         // Override and implement this function in Screen1
     }
+    virtual void directText()
+    {
+        // Override and implement this function in Screen1
+    }
 
 protected:
     FrontendApplication& application() {
@@ -40,6 +44,7 @@ protected:
     touchgfx::ButtonWithLabel buttonNextScreen;
     touchgfx::ButtonWithLabel buttonMainPwrOn;
     touchgfx::TextAreaWithOneWildcard textArea1;
+    touchgfx::ButtonWithLabel buttonTextDirect;
 
     /*
      * Wildcard Buffers

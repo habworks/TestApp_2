@@ -10,7 +10,13 @@
       </Text>
     </TextGroup>
     <TextGroup Id="Unsorted">
-      <Text Id="__SingleUse_QVBZ" Alignment="Center" TypographyId="Default">
+      <Text Id="__SingleUse_Q4R7" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">55.45</Translation>
+      </Text>
+      <Text Id="__SingleUse_1ST2" Alignment="Center" TypographyId="Default">
+        <Translation Language="GB">TextDirect</Translation>
+      </Text>
+      <Text Id="__SingleUse_QVBZ" Alignment="Left" TypographyId="Default">
         <Translation Language="GB">&lt;Value&gt;V</Translation>
       </Text>
       <Text Id="__SingleUse_O7QK" Alignment="Left" TypographyId="Default">
@@ -37,7 +43,7 @@
     </TextGroup>
   </Texts>
   <Typographies>
-    <Typography Id="Default" Font="verdana.ttf" Size="20" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Default" Font="verdana.ttf" Size="20" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" WildcardCharacters="." WildcardCharacterRanges="0-9" />
     <Typography Id="Large" Font="verdana.ttf" Size="40" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
     <Typography Id="Small" Font="verdana.ttf" Size="10" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
   </Typographies>

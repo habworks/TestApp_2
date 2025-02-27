@@ -17,7 +17,7 @@ Screen1ViewBase::Screen1ViewBase() :
     image1.setBitmap(touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_BACKGROUNDS_480X272_PUZZLE_ID));
     add(image1);
 
-    buttonNextScreen.setXY(192, 86);
+    buttonNextScreen.setXY(220, 62);
     buttonNextScreen.setBitmaps(touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_REGULAR_HEIGHT_50_MEDIUM_ROUNDED_NORMAL_ID), touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_REGULAR_HEIGHT_50_MEDIUM_ROUNDED_PRESSED_ID));
     buttonNextScreen.setLabelText(touchgfx::TypedText(T___SINGLEUSE_7C67));
     buttonNextScreen.setLabelColor(touchgfx::Color::getColorFromRGB(255, 255, 255));
@@ -25,7 +25,7 @@ Screen1ViewBase::Screen1ViewBase() :
     buttonNextScreen.setAction(buttonCallback);
     add(buttonNextScreen);
 
-    buttonMainPwrOn.setXY(192, 175);
+    buttonMainPwrOn.setXY(220, 122);
     buttonMainPwrOn.setBitmaps(touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_REGULAR_HEIGHT_50_MEDIUM_ROUNDED_NORMAL_ID), touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_REGULAR_HEIGHT_50_MEDIUM_ROUNDED_PRESSED_ID));
     buttonMainPwrOn.setLabelText(touchgfx::TypedText(T___SINGLEUSE_W9CG));
     buttonMainPwrOn.setLabelColor(touchgfx::Color::getColorFromRGB(255, 255, 255));
@@ -36,11 +36,19 @@ Screen1ViewBase::Screen1ViewBase() :
     textArea1.setXY(27, 52);
     textArea1.setColor(touchgfx::Color::getColorFromRGB(0, 0, 0));
     textArea1.setLinespacing(0);
-    textArea1Buffer[0] = 0;
+    Unicode::snprintf(textArea1Buffer, TEXTAREA1_SIZE, "%s", touchgfx::TypedText(T___SINGLEUSE_Q4R7).getText());
     textArea1.setWildcard(textArea1Buffer);
     textArea1.resizeToCurrentText();
     textArea1.setTypedText(touchgfx::TypedText(T___SINGLEUSE_QVBZ));
     add(textArea1);
+
+    buttonTextDirect.setXY(220, 193);
+    buttonTextDirect.setBitmaps(touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_REGULAR_HEIGHT_50_MEDIUM_ROUNDED_NORMAL_ID), touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_REGULAR_HEIGHT_50_MEDIUM_ROUNDED_PRESSED_ID));
+    buttonTextDirect.setLabelText(touchgfx::TypedText(T___SINGLEUSE_1ST2));
+    buttonTextDirect.setLabelColor(touchgfx::Color::getColorFromRGB(255, 255, 255));
+    buttonTextDirect.setLabelColorPressed(touchgfx::Color::getColorFromRGB(255, 255, 255));
+    buttonTextDirect.setAction(buttonCallback);
+    add(buttonTextDirect);
 }
 
 Screen1ViewBase::~Screen1ViewBase()
@@ -68,5 +76,12 @@ void Screen1ViewBase::buttonCallbackHandler(const touchgfx::AbstractButton& src)
         //When buttonMainPwrOn clicked call virtual function
         //Call mainPowerOn
         mainPowerOn();
+    }
+    if (&src == &buttonTextDirect)
+    {
+        //Interaction3
+        //When buttonTextDirect clicked call virtual function
+        //Call directText
+        directText();
     }
 }

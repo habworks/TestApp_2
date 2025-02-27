@@ -30,10 +30,19 @@ void Screen1View::mainPowerOn(void)
 
 void Screen1View::textDisplayUpdate_View(float DisplayValue)
 {
-    memset(&textArea1Buffer, 0, TEXTAREA1_SIZE);
-    Unicode::snprintfFloat(textArea1Buffer, sizeof(textArea1), "%2.3f", DisplayValue);
-    textArea1.setWildcard1(textArea1Buffer);
+//    memset(&textArea1Buffer, 0, TEXTAREA1_SIZE);
+    Unicode::snprintfFloat(textArea1Buffer, TEXTAREA1_SIZE, "%2.3f", DisplayValue);
+//    Unicode::snprintf(textArea1Buffer, TEXTAREA1_SIZE, "%d", 30);
+//    textArea1.setWildcard1(textArea1Buffer);
     textArea1.invalidate();
+
+}
+
+void Screen1View::directText(void)
+{
+    Unicode::snprintf(textArea1Buffer, TEXTAREA1_SIZE, "%d", 100);
+    textArea1.invalidate();
+    MAIN_PWR_TOGGLE();
 }
 
 #endif
