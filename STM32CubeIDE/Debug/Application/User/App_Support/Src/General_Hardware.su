@@ -1,0 +1,2 @@
+../Application/User/App_Support/Src/General_Hardware.c:9:6:Init_GeneralHardware	0	static
+../Application/User/App_Support/Src/General_Hardware.c:14:6:generalHardwareTaskFunction	8	static
