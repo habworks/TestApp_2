@@ -1,8 +1,14 @@
+../../Drivers/CMSIS/Include/core_cm7.h:1932:22:__NVIC_DisableIRQ	2
+../../Drivers/CMSIS/Include/core_cm7.h:2024:22:__NVIC_SetPriority	2
+../../Drivers/CMSIS/Include/core_cm7.h:2046:26:__NVIC_GetPriority	2
+../../Drivers/CMSIS/Include/core_cm7.h:2071:26:NVIC_EncodePriority	2
+../../Drivers/CMSIS/Include/core_cm7.h:2098:22:NVIC_DecodePriority	2
+../../Drivers/CMSIS/Include/core_cm7.h:2147:34:__NVIC_SystemReset	1
 C:/TouchGFXProjects/TestApp_2/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cortex.c:142:6:HAL_NVIC_SetPriorityGrouping	1
-C:/TouchGFXProjects/TestApp_2/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cortex.c:164:6:HAL_NVIC_SetPriority	3
+C:/TouchGFXProjects/TestApp_2/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cortex.c:164:6:HAL_NVIC_SetPriority	1
 C:/TouchGFXProjects/TestApp_2/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cortex.c:186:6:HAL_NVIC_EnableIRQ	2
-C:/TouchGFXProjects/TestApp_2/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cortex.c:202:6:HAL_NVIC_DisableIRQ	2
-C:/TouchGFXProjects/TestApp_2/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cortex.c:215:6:HAL_NVIC_SystemReset	1
+C:/TouchGFXProjects/TestApp_2/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cortex.c:202:6:HAL_NVIC_DisableIRQ	1
+C:/TouchGFXProjects/TestApp_2/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cortex.c:215:6:HAL_NVIC_SystemReset	0
 C:/TouchGFXProjects/TestApp_2/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cortex.c:228:10:HAL_SYSTICK_Config	2
 C:/TouchGFXProjects/TestApp_2/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cortex.c:257:6:HAL_MPU_Disable	1
 C:/TouchGFXProjects/TestApp_2/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cortex.c:280:6:HAL_MPU_Enable	1
@@ -10,7 +16,7 @@ C:/TouchGFXProjects/TestApp_2/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cor
 C:/TouchGFXProjects/TestApp_2/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cortex.c:313:6:HAL_MPU_DisableRegion	1
 C:/TouchGFXProjects/TestApp_2/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cortex.c:331:6:HAL_MPU_ConfigRegion	1
 C:/TouchGFXProjects/TestApp_2/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cortex.c:369:10:HAL_NVIC_GetPriorityGrouping	1
-C:/TouchGFXProjects/TestApp_2/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cortex.c:396:6:HAL_NVIC_GetPriority	3
+C:/TouchGFXProjects/TestApp_2/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cortex.c:396:6:HAL_NVIC_GetPriority	1
 C:/TouchGFXProjects/TestApp_2/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cortex.c:411:6:HAL_NVIC_SetPendingIRQ	2
 C:/TouchGFXProjects/TestApp_2/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cortex.c:429:10:HAL_NVIC_GetPendingIRQ	2
 C:/TouchGFXProjects/TestApp_2/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cortex.c:445:6:HAL_NVIC_ClearPendingIRQ	2

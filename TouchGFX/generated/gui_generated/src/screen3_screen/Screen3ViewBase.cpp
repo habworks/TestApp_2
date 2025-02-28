@@ -17,14 +17,20 @@ Screen3ViewBase::Screen3ViewBase() :
     image1.setBitmap(touchgfx::Bitmap(BITMAP_DARK_THEME_IMAGES_BACKGROUNDS_480X272_WAVY_LINES_ID));
     add(image1);
 
-    buttonHome.setXY(291, 118);
+    textArea2_1.setXY(48, 116);
+    textArea2_1.setColor(touchgfx::Color::getColorFromRGB(255, 255, 255));
+    textArea2_1.setLinespacing(0);
+    textArea2_1.setTypedText(touchgfx::TypedText(T___SINGLEUSE_7IIK));
+    add(textArea2_1);
+
+    buttonHome.setXY(335, 218);
     buttonHome.setBitmaps(touchgfx::Bitmap(BITMAP_DARK_THEME_IMAGES_WIDGETS_BUTTON_REGULAR_HEIGHT_36_SMALL_ROUND_ACTION_ID), touchgfx::Bitmap(BITMAP_DARK_THEME_IMAGES_WIDGETS_BUTTON_REGULAR_HEIGHT_36_SMALL_ROUND_PRESSED_ID));
     buttonHome.setLabelText(touchgfx::TypedText(T___SINGLEUSE_5837));
     buttonHome.setLabelColor(touchgfx::Color::getColorFromRGB(255, 255, 255));
     buttonHome.setLabelColorPressed(touchgfx::Color::getColorFromRGB(255, 255, 255));
     add(buttonHome);
 
-    box1.setPosition(62, 71, 65, 65);
+    box1.setPosition(30, 189, 65, 65);
     box1.setColor(touchgfx::Color::getColorFromRGB(94, 235, 19));
     add(box1);
 
@@ -36,24 +42,62 @@ Screen3ViewBase::Screen3ViewBase() :
     flexButtonOutputCH1.setTextColors(touchgfx::Color::getColorFromRGB(245, 245, 245), touchgfx::Color::getColorFromRGB(10, 10, 10));
     flexButtonOutputCH1.setAlpha(108);
     flexButtonOutputCH1.setAction(flexButtonCallback);
-    flexButtonOutputCH1.setPosition(62, 71, 65, 65);
+    flexButtonOutputCH1.setPosition(30, 189, 65, 65);
     add(flexButtonOutputCH1);
 
-    container1.setPosition(0, 0, 240, 272);
+    container1.setPosition(-108, -210, 240, 272);
     add(container1);
 
-    container2.setPosition(240, 0, 240, 272);
+    container2.setPosition(404, -106, 240, 272);
     add(container2);
 
-    button1.setXY(310, 53);
+    button1.setXY(235, 218);
     button1.setBitmaps(touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_REGULAR_HEIGHT_36_TINY_ROUND_ACTIVE_ID), touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_REGULAR_HEIGHT_36_TINY_ROUND_PRESSED_ID));
     add(button1);
 
-    textArea1.setXY(79, 93);
+    textArea1.setXY(47, 211);
     textArea1.setColor(touchgfx::Color::getColorFromRGB(197, 224, 200));
     textArea1.setLinespacing(0);
     textArea1.setTypedText(touchgfx::TypedText(T___SINGLEUSE_O7QK));
     add(textArea1);
+
+    textArea2.setXY(325, 69);
+    textArea2.setColor(touchgfx::Color::getColorFromRGB(23, 148, 194));
+    textArea2.setLinespacing(0);
+    textArea2.setTypedText(touchgfx::TypedText(T___SINGLEUSE_Q4BD));
+    add(textArea2);
+
+    textArea3.setXY(120, 149);
+    textArea3.setColor(touchgfx::Color::getColorFromRGB(212, 199, 25));
+    textArea3.setLinespacing(0);
+    textArea3.setTypedText(touchgfx::TypedText(T___SINGLEUSE_9T5W));
+    add(textArea3);
+
+    textArea4.setXY(0, -28);
+    textArea4.setColor(touchgfx::Color::getColorFromRGB(214, 205, 34));
+    textArea4.setLinespacing(0);
+    textArea4.setTypedText(touchgfx::TypedText(T___SINGLEUSE_TSJG));
+    add(textArea4);
+
+    flexButton1.setBoxWithBorderPosition(0, 0, 70, 64);
+    flexButton1.setBorderSize(2);
+    flexButton1.setBoxWithBorderColors(touchgfx::Color::getColorFromRGB(94, 235, 19), touchgfx::Color::getColorFromRGB(51, 125, 11), touchgfx::Color::getColorFromRGB(212, 199, 25), touchgfx::Color::getColorFromRGB(212, 199, 25));
+    flexButton1.setText(TypedText(T___SINGLEUSE_6BJM));
+    flexButton1.setTextPosition(0, 19, 70, 64);
+    flexButton1.setTextColors(touchgfx::Color::getColorFromRGB(255, 255, 255), touchgfx::Color::getColorFromRGB(10, 10, 10));
+    flexButton1.setAction(flexButtonCallback);
+    flexButton1.setPosition(215, 66, 70, 64);
+    add(flexButton1);
+
+    flexButton2.setBoxWithBorderPosition(0, 0, 84, 80);
+    flexButton2.setBorderSize(5);
+    flexButton2.setBoxWithBorderColors(touchgfx::Color::getColorFromRGB(0, 102, 153), touchgfx::Color::getColorFromRGB(0, 153, 204), touchgfx::Color::getColorFromRGB(0, 51, 102), touchgfx::Color::getColorFromRGB(51, 102, 153));
+    flexButton2.setIconBitmaps(Bitmap(BITMAP_ICON_THEME_IMAGES_ACTION_SETTINGS_70_70_B5A974_SVG_ID), Bitmap(BITMAP_ICON_THEME_IMAGES_ACTION_SETTINGS_70_70_287F9C_SVG_ID));
+    flexButton2.setIconXY(8, 6);
+    flexButton2.setAlpha(75);
+    flexButton2.setAction(flexButtonCallback);
+    flexButton2.setPosition(335, 130, 84, 80);
+    add(flexButton2);
 }
 
 Screen3ViewBase::~Screen3ViewBase()
@@ -74,5 +118,19 @@ void Screen3ViewBase::flexButtonCallbackHandler(const touchgfx::AbstractButtonCo
         //When flexButtonOutputCH1 clicked call virtual function
         //Call toggleMainPower
         toggleMainPower();
+    }
+    if (&src == &flexButton1)
+    {
+        //Interaction2
+        //When flexButton1 clicked call virtual function
+        //Call toggleOutputEnable
+        toggleOutputEnable();
+    }
+    if (&src == &flexButton2)
+    {
+        //Interaction3
+        //When flexButton2 clicked call virtual function
+        //Call iconToggleColor
+        iconToggleColor();
     }
 }

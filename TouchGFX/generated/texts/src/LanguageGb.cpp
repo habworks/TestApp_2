@@ -11,14 +11,20 @@ KEEP extern const uint32_t indicesGb[] TEXT_LOCATION_FLASH_ATTRIBUTE;
 TEXT_LOCATION_FLASH_PRAGMA
 KEEP extern const uint32_t indicesGb[] TEXT_LOCATION_FLASH_ATTRIBUTE = {
     51, // T_RESOURCEID1: "New Text"
-    60, // T___SINGLEUSE_Q4R7: "55.45"
+    88, // T_RESOURCEID2: "TST"
+    92, // T___SINGLEUSE_6BJM: "ON"
+    84, // T___SINGLEUSE_TSJG: "CH1"
+    67, // T___SINGLEUSE_7IIK: "3.789"
+    60, // T___SINGLEUSE_9T5W: "12.345"
+    67, // T___SINGLEUSE_Q4BD: "3.789"
+    73, // T___SINGLEUSE_Q4R7: "55.45"
     37, // T___SINGLEUSE_1ST2: "TextDirect"
     48, // T___SINGLEUSE_QVBZ: "<>V"
-    71, // T___SINGLEUSE_O7QK: "ON"
+    92, // T___SINGLEUSE_O7QK: "ON"
     12, // T___SINGLEUSE_PWIN: ""
     51, // T___SINGLEUSE_5837: "New Text"
     0,  // T___SINGLEUSE_3SZ1: "Main Pwr Off"
-    66, // T___SINGLEUSE_N0HN: "Home"
+    79, // T___SINGLEUSE_N0HN: "Home"
     13, // T___SINGLEUSE_W9CG: "Main Pwr On"
     25  // T___SINGLEUSE_7C67: "Next Screen"
 };

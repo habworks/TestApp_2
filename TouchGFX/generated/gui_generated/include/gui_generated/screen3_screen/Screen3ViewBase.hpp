@@ -9,11 +9,11 @@
 #include <gui/screen3_screen/Screen3Presenter.hpp>
 #include <touchgfx/widgets/Box.hpp>
 #include <touchgfx/widgets/Image.hpp>
+#include <touchgfx/widgets/TextArea.hpp>
 #include <touchgfx/widgets/ButtonWithLabel.hpp>
 #include <touchgfx/containers/buttons/Buttons.hpp>
 #include <touchgfx/containers/Container.hpp>
 #include <touchgfx/widgets/Button.hpp>
-#include <touchgfx/widgets/TextArea.hpp>
 
 class Screen3ViewBase : public touchgfx::View<Screen3Presenter>
 {
@@ -29,6 +29,14 @@ public:
     {
         // Override and implement this function in Screen3
     }
+    virtual void toggleOutputEnable()
+    {
+        // Override and implement this function in Screen3
+    }
+    virtual void iconToggleColor()
+    {
+        // Override and implement this function in Screen3
+    }
 
 protected:
     FrontendApplication& application() {
@@ -40,6 +48,7 @@ protected:
      */
     touchgfx::Box __background;
     touchgfx::Image image1;
+    touchgfx::TextArea textArea2_1;
     touchgfx::ButtonWithLabel buttonHome;
     touchgfx::Box box1;
     touchgfx::TextButtonStyle< touchgfx::BoxWithBorderButtonStyle< touchgfx::ClickButtonTrigger >  >  flexButtonOutputCH1;
@@ -47,6 +56,11 @@ protected:
     touchgfx::Container container2;
     touchgfx::Button button1;
     touchgfx::TextArea textArea1;
+    touchgfx::TextArea textArea2;
+    touchgfx::TextArea textArea3;
+    touchgfx::TextArea textArea4;
+    touchgfx::TextButtonStyle< touchgfx::BoxWithBorderButtonStyle< touchgfx::ClickButtonTrigger >  >  flexButton1;
+    touchgfx::IconButtonStyle< touchgfx::BoxWithBorderButtonStyle< touchgfx::ClickButtonTrigger >  >  flexButton2;
 
 private:
 

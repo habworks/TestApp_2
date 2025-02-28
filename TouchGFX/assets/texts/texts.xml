@@ -10,6 +10,24 @@
       </Text>
     </TextGroup>
     <TextGroup Id="Unsorted">
+      <Text Id="ResourceId2" Alignment="Center" TypographyId="Default">
+        <Translation Language="GB">OFF</Translation>
+      </Text>
+      <Text Id="__SingleUse_6BJM" Alignment="Center" TypographyId="Default">
+        <Translation Language="GB">ON</Translation>
+      </Text>
+      <Text Id="__SingleUse_TSJG" Alignment="Left" TypographyId="Typography_Large">
+        <Translation Language="GB">CH1</Translation>
+      </Text>
+      <Text Id="__SingleUse_7IIK" Alignment="Left" TypographyId="Iceland_Numeric">
+        <Translation Language="GB">3.789</Translation>
+      </Text>
+      <Text Id="__SingleUse_9T5W" Alignment="Left" TypographyId="Iceland_Numeric">
+        <Translation Language="GB">12.345</Translation>
+      </Text>
+      <Text Id="__SingleUse_Q4BD" Alignment="Left" TypographyId="Iceland_Numeric">
+        <Translation Language="GB">3.789</Translation>
+      </Text>
       <Text Id="__SingleUse_Q4R7" Alignment="Left" TypographyId="Default">
         <Translation Language="GB">55.45</Translation>
       </Text>
@@ -46,5 +64,7 @@
     <Typography Id="Default" Font="verdana.ttf" Size="20" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" WildcardCharacters="." WildcardCharacterRanges="0-9" />
     <Typography Id="Large" Font="verdana.ttf" Size="40" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
     <Typography Id="Small" Font="verdana.ttf" Size="10" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Iceland_Numeric" Font="Iceland-Regular.ttf" Size="40" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Typography_Large" Font="Iceland-Regular.ttf" Size="80" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
   </Typographies>
 </TextDatabase>

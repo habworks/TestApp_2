@@ -33,7 +33,7 @@ Screen1ViewBase::Screen1ViewBase() :
     buttonMainPwrOn.setAction(buttonCallback);
     add(buttonMainPwrOn);
 
-    textArea1.setXY(27, 52);
+    textArea1.setXY(26, 52);
     textArea1.setColor(touchgfx::Color::getColorFromRGB(0, 0, 0));
     textArea1.setLinespacing(0);
     Unicode::snprintf(textArea1Buffer, TEXTAREA1_SIZE, "%s", touchgfx::TypedText(T___SINGLEUSE_Q4R7).getText());

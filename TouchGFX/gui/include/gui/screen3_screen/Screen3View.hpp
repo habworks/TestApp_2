@@ -14,6 +14,8 @@ public:
     // Hab Added
 #ifdef USE_TGFX_CALL_FUNCTIONS
     virtual void toggleMainPower(void);
+    virtual void toggleOutputEnable(void);
+    virtual void iconToggleColor(void);
 #endif
 protected:
 };

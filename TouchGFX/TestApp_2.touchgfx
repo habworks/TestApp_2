@@ -60,7 +60,7 @@
           {
             "Type": "TextArea",
             "Name": "textArea1",
-            "X": 27,
+            "X": 26,
             "Y": 52,
             "Width": 73,
             "Height": 20,
@@ -228,10 +228,26 @@
             "RelativeFilename": "__generated\\dark_theme_images_backgrounds_480x272_wavy_lines.png"
           },
           {
+            "Type": "TextArea",
+            "Name": "textArea2_1",
+            "X": 48,
+            "Y": 116,
+            "Width": 94,
+            "Height": 40,
+            "TextId": "__SingleUse_7IIK",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          },
+          {
             "Type": "ButtonWithLabel",
             "Name": "buttonHome",
-            "X": 291,
-            "Y": 118,
+            "X": 335,
+            "Y": 218,
             "Width": 138,
             "Height": 36,
             "Pressed": "__generated\\dark_theme_images_widgets_button_regular_height_36_small_round_pressed.png",
@@ -253,8 +269,8 @@
           {
             "Type": "Box",
             "Name": "box1",
-            "X": 62,
-            "Y": 71,
+            "X": 30,
+            "Y": 189,
             "Width": 65,
             "Height": 65,
             "Color": {
@@ -266,8 +282,8 @@
           {
             "Type": "FlexButton",
             "Name": "flexButtonOutputCH1",
-            "X": 62,
-            "Y": 71,
+            "X": 30,
+            "Y": 189,
             "Width": 65,
             "Height": 65,
             "Alpha": 108,
@@ -319,6 +335,8 @@
           {
             "Type": "Container",
             "Name": "container1",
+            "X": -108,
+            "Y": -210,
             "Width": 240,
             "Height": 272,
             "Components": []
@@ -326,7 +344,8 @@
           {
             "Type": "Container",
             "Name": "container2",
-            "X": 240,
+            "X": 404,
+            "Y": -106,
             "Width": 240,
             "Height": 272,
             "Components": []
@@ -334,8 +353,8 @@
           {
             "Type": "Button",
             "Name": "button1",
-            "X": 310,
-            "Y": 53,
+            "X": 235,
+            "Y": 218,
             "Width": 100,
             "Height": 36,
             "Pressed": "__generated\\alternate_theme_images_widgets_button_regular_height_36_tiny_round_pressed.png",
@@ -345,8 +364,8 @@
           {
             "Type": "TextArea",
             "Name": "textArea1",
-            "X": 79,
-            "Y": 93,
+            "X": 47,
+            "Y": 211,
             "Width": 31,
             "Height": 20,
             "TextId": "__SingleUse_O7QK",
@@ -357,6 +376,154 @@
               "Blue": 200
             },
             "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea2",
+            "X": 325,
+            "Y": 69,
+            "Width": 94,
+            "Height": 40,
+            "TextId": "__SingleUse_Q4BD",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 23,
+              "Green": 148,
+              "Blue": 194
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea3",
+            "X": 120,
+            "Y": 149,
+            "Width": 115,
+            "Height": 40,
+            "TextId": "__SingleUse_9T5W",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 212,
+              "Green": 199,
+              "Blue": 25
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea4",
+            "Y": -28,
+            "Width": 135,
+            "Height": 80,
+            "TextId": "__SingleUse_TSJG",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 214,
+              "Green": 205,
+              "Blue": 34
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "FlexButton",
+            "Name": "flexButton1",
+            "X": 215,
+            "Y": 66,
+            "Width": 70,
+            "Height": 64,
+            "ButtonTrigger": {
+              "Type": "ClickButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "TextButtonStyle",
+                "Y": 19,
+                "TextId": "__SingleUse_6BJM",
+                "TextRotation": "0",
+                "ColorReleased": {
+                  "Red": 255,
+                  "Green": 255,
+                  "Blue": 255
+                },
+                "ColorPressed": {
+                  "Red": 10,
+                  "Green": 10,
+                  "Blue": 10
+                }
+              },
+              {
+                "Type": "BoxWithBorderButtonStyle",
+                "Width": 70,
+                "Height": 64,
+                "LockToFlexButtonSize": true,
+                "BorderSize": 2,
+                "ColorReleased": {
+                  "Red": 94,
+                  "Green": 235,
+                  "Blue": 19
+                },
+                "ColorPressed": {
+                  "Red": 51,
+                  "Green": 125,
+                  "Blue": 11
+                },
+                "ColorBorderReleased": {
+                  "Red": 212,
+                  "Green": 199,
+                  "Blue": 25
+                },
+                "ColorBorderPressed": {
+                  "Red": 212,
+                  "Green": 199,
+                  "Blue": 25
+                }
+              }
+            ]
+          },
+          {
+            "Type": "FlexButton",
+            "Name": "flexButton2",
+            "X": 335,
+            "Y": 130,
+            "Width": 84,
+            "Height": 80,
+            "Alpha": 75,
+            "ButtonTrigger": {
+              "Type": "ClickButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "IconButtonStyle",
+                "X": 8,
+                "Y": 6,
+                "IconReleased": "__generated\\icon_theme_images_action_settings_70_70_B5A974.svg.png",
+                "IconPressed": "__generated\\icon_theme_images_action_settings_70_70_287F9C.svg.png"
+              },
+              {
+                "Type": "BoxWithBorderButtonStyle",
+                "Width": 84,
+                "Height": 80,
+                "LockToFlexButtonSize": true,
+                "BorderSize": 5,
+                "ColorReleased": {
+                  "Green": 102,
+                  "Blue": 153
+                },
+                "ColorPressed": {
+                  "Green": 153,
+                  "Blue": 204
+                },
+                "ColorBorderReleased": {
+                  "Green": 51,
+                  "Blue": 102
+                },
+                "ColorBorderPressed": {
+                  "Red": 51,
+                  "Green": 102,
+                  "Blue": 153
+                }
+              }
+            ]
           }
         ],
         "Interactions": [
@@ -369,6 +536,28 @@
             "Action": {
               "Type": "ActionCustom",
               "FunctionName": "toggleMainPower"
+            }
+          },
+          {
+            "InteractionName": "Interaction2",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "flexButton1"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "toggleOutputEnable"
+            }
+          },
+          {
+            "InteractionName": "Interaction3",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "flexButton2"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "iconToggleColor"
             }
           }
         ]
