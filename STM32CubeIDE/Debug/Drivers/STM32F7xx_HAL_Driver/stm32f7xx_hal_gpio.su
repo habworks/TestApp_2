@@ -1,5 +1,5 @@
-C:/TouchGFXProjects/TestApp_2/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_gpio.c:162:6:HAL_GPIO_Init	24	static
-C:/TouchGFXProjects/TestApp_2/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_gpio.c:291:6:HAL_GPIO_DeInit	20	static
+C:/TouchGFXProjects/TestApp_2/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_gpio.c:162:6:HAL_GPIO_Init	48	static
+C:/TouchGFXProjects/TestApp_2/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_gpio.c:291:6:HAL_GPIO_DeInit	36	static
 C:/TouchGFXProjects/TestApp_2/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_gpio.c:370:15:HAL_GPIO_ReadPin	0	static
 C:/TouchGFXProjects/TestApp_2/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_gpio.c:404:6:HAL_GPIO_WritePin	0	static
 C:/TouchGFXProjects/TestApp_2/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_gpio.c:427:6:HAL_GPIO_TogglePin	0	static

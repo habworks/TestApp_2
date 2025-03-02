@@ -3,8 +3,8 @@
 /*********************************************************************************/
 #include <gui_generated/screen3_screen/Screen3ViewBase.hpp>
 #include <touchgfx/Color.hpp>
-#include <images/BitmapDatabase.hpp>
 #include <texts/TextKeysAndLanguages.hpp>
+#include <images/BitmapDatabase.hpp>
 
 Screen3ViewBase::Screen3ViewBase() :
     flexButtonCallback(this, &Screen3ViewBase::flexButtonCallbackHandler)
@@ -12,10 +12,6 @@ Screen3ViewBase::Screen3ViewBase() :
     __background.setPosition(0, 0, 480, 272);
     __background.setColor(touchgfx::Color::getColorFromRGB(0, 0, 0));
     add(__background);
-
-    image1.setXY(0, 0);
-    image1.setBitmap(touchgfx::Bitmap(BITMAP_DARK_THEME_IMAGES_BACKGROUNDS_480X272_WAVY_LINES_ID));
-    add(image1);
 
     textArea2_1.setXY(48, 116);
     textArea2_1.setColor(touchgfx::Color::getColorFromRGB(255, 255, 255));
@@ -96,7 +92,7 @@ Screen3ViewBase::Screen3ViewBase() :
     flexButton2.setIconXY(8, 6);
     flexButton2.setAlpha(75);
     flexButton2.setAction(flexButtonCallback);
-    flexButton2.setPosition(335, 130, 84, 80);
+    flexButton2.setPosition(335, 129, 84, 80);
     add(flexButton2);
 }
 

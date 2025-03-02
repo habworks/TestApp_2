@@ -1,7 +1,6 @@
-C:/TouchGFXProjects/TestApp_2/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c:671:19:prvTestWaitCondition	4
 C:/TouchGFXProjects/TestApp_2/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c:93:21:xEventGroupCreateStatic	3
 C:/TouchGFXProjects/TestApp_2/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c:145:21:xEventGroupCreate	2
-C:/TouchGFXProjects/TestApp_2/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c:311:13:xEventGroupWaitBits	16
+C:/TouchGFXProjects/TestApp_2/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c:311:13:xEventGroupWaitBits	19
 C:/TouchGFXProjects/TestApp_2/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c:461:13:xEventGroupClearBits	3
 C:/TouchGFXProjects/TestApp_2/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c:665:6:vEventGroupClearBitsCallback	1
 C:/TouchGFXProjects/TestApp_2/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c:490:13:xEventGroupClearBitsFromISR	1

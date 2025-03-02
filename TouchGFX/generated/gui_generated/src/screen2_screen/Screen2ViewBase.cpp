@@ -13,10 +13,6 @@ Screen2ViewBase::Screen2ViewBase() :
     __background.setColor(touchgfx::Color::getColorFromRGB(0, 0, 0));
     add(__background);
 
-    image1.setXY(0, 0);
-    image1.setBitmap(touchgfx::Bitmap(BITMAP_GLASS_THEME_IMAGES_BACKGROUNDS_480X272_FLOATING_RINGS_ID));
-    add(image1);
-
     buttonHomeScreen.setXY(120, 111);
     buttonHomeScreen.setBitmaps(touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_REGULAR_HEIGHT_50_MEDIUM_ROUNDED_NORMAL_ID), touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_BUTTON_REGULAR_HEIGHT_50_MEDIUM_ROUNDED_PRESSED_ID));
     buttonHomeScreen.setLabelText(touchgfx::TypedText(T___SINGLEUSE_N0HN));

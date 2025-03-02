@@ -749,11 +749,6 @@
 			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/images/src/__generated/image_alternate_theme_images_widgets_button_regular_height_50_medium_rounded_pressed.cpp</locationURI>
 		</link>
 		<link>
-			<name>Application/User/generated/image_dark_theme_images_backgrounds_480x272_wavy_lines.cpp</name>
-			<type>1</type>
-			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/images/src/__generated/image_dark_theme_images_backgrounds_480x272_wavy_lines.cpp</locationURI>
-		</link>
-		<link>
 			<name>Application/User/generated/image_dark_theme_images_widgets_button_regular_height_36_small_round_action.cpp</name>
 			<type>1</type>
 			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/images/src/__generated/image_dark_theme_images_widgets_button_regular_height_36_small_round_action.cpp</locationURI>
@@ -762,11 +757,6 @@
 			<name>Application/User/generated/image_dark_theme_images_widgets_button_regular_height_36_small_round_pressed.cpp</name>
 			<type>1</type>
 			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/images/src/__generated/image_dark_theme_images_widgets_button_regular_height_36_small_round_pressed.cpp</locationURI>
-		</link>
-		<link>
-			<name>Application/User/generated/image_glass_theme_images_backgrounds_480x272_floating_rings.cpp</name>
-			<type>1</type>
-			<locationURI>PARENT-1-PROJECT_LOC/TouchGFX/generated/images/src/__generated/image_glass_theme_images_backgrounds_480x272_floating_rings.cpp</locationURI>
 		</link>
 		<link>
 			<name>Application/User/generated/image_icon_theme_images_action_settings_70_70_287F9C.svg.cpp</name>

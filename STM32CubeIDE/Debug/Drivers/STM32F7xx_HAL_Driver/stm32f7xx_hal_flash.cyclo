@@ -7,7 +7,7 @@ C:/TouchGFXProjects/TestApp_2/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_fla
 C:/TouchGFXProjects/TestApp_2/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash.c:428:13:HAL_FLASH_EndOfOperationCallback	1
 C:/TouchGFXProjects/TestApp_2/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash.c:446:13:HAL_FLASH_OperationErrorCallback	1
 C:/TouchGFXProjects/TestApp_2/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash.c:293:6:HAL_FLASH_IRQHandler	11
-C:/TouchGFXProjects/TestApp_2/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash.c:478:19:HAL_FLASH_Unlock	3
+C:/TouchGFXProjects/TestApp_2/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash.c:478:19:HAL_FLASH_Unlock	2
 C:/TouchGFXProjects/TestApp_2/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash.c:502:19:HAL_FLASH_Lock	1
 C:/TouchGFXProjects/TestApp_2/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash.c:514:19:HAL_FLASH_OB_Unlock	2
 C:/TouchGFXProjects/TestApp_2/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash.c:534:19:HAL_FLASH_OB_Lock	1

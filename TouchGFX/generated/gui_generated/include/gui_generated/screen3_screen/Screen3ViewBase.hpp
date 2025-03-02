@@ -8,7 +8,6 @@
 #include <mvp/View.hpp>
 #include <gui/screen3_screen/Screen3Presenter.hpp>
 #include <touchgfx/widgets/Box.hpp>
-#include <touchgfx/widgets/Image.hpp>
 #include <touchgfx/widgets/TextArea.hpp>
 #include <touchgfx/widgets/ButtonWithLabel.hpp>
 #include <touchgfx/containers/buttons/Buttons.hpp>
@@ -47,7 +46,6 @@ protected:
      * Member Declarations
      */
     touchgfx::Box __background;
-    touchgfx::Image image1;
     touchgfx::TextArea textArea2_1;
     touchgfx::ButtonWithLabel buttonHome;
     touchgfx::Box box1;

@@ -1,4 +1,4 @@
-C:/TouchGFXProjects/TestApp_2/Middlewares/Third_Party/LibJPEG/source/jcapimin.c:31:1:jpeg_CreateCompress	5
+C:/TouchGFXProjects/TestApp_2/Middlewares/Third_Party/LibJPEG/source/jcapimin.c:31:1:jpeg_CreateCompress	3
 C:/TouchGFXProjects/TestApp_2/Middlewares/Third_Party/LibJPEG/source/jcapimin.c:96:1:jpeg_destroy_compress	1
 C:/TouchGFXProjects/TestApp_2/Middlewares/Third_Party/LibJPEG/source/jcapimin.c:108:1:jpeg_abort_compress	1
 C:/TouchGFXProjects/TestApp_2/Middlewares/Third_Party/LibJPEG/source/jcapimin.c:127:1:jpeg_suppress_tables	6
